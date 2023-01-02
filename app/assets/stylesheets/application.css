@@ -1,3 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px 0px 0px 30px;
+}
+
+p {
+  line-height: 70px;
+  padding-left: 30px;
+}
+
+.top h1 {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 2em;
+}
+
+.start {
+  padding-left: 30px;
+}
+
+table th{
+  padding : 10px 5px;
+  text-align: left
+}
+
+table td{
+  padding : 10px 5px;
+}
+
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

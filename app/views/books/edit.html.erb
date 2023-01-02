@@ -6,10 +6,10 @@
 
 
  <h2>Boody</h2>
- <%= f.text_area :body %>
+ <%= f.text_area :body %><br>
 
- <%= f.submit 'Update Book' %>
- <%= link_to "Show" , book_path(@book.id) %>
+ <%= f.submit 'Update Book' %><br>
+ <%= link_to "Show" , book_path(@book.id) %> |
  <%= link_to "Back", index_book_path(@book.id) %>
 
 <% end %>
